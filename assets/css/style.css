@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     border: 0;
     padding : 0;
     box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
 }
 
 body{
@@ -47,6 +50,26 @@ header .navbar{
     border: none;
 }
 
+.rectangulo-celeste{
+    width: 93% !important;
+    height: 40px !important;
+    background-color: cyan;
+    padding-left: 0 !important;
+    margin-left: 0.75rem !important;
+    
+}
+
+.rectangulo-unico{
+    width: 25% !important;
+}
+
+#quienes-somos .rectangulo-celeste i {
+    padding-top: 5%;
+    place-self: center;
+    padding-left: 47%;
+    padding-right: 0%;
+}
+
 .card-body{
     background-color: cyan;
 }
@@ -66,6 +89,8 @@ header .navbar{
 
 #quienes-somos h2{
     color:white;
+    font-weight: 500;
+
 }
 
 #quienes-somos h4{
@@ -76,12 +101,17 @@ header .navbar{
     color: white;
 }
 
+#quienes-somos i{
+    color: white;
+}
+
 #destacados {
     background-color: black;
 }
 
 #destacados h2{
     color: white;
+    font-weight: 500;
 }
 
 #contacto {
@@ -90,6 +120,7 @@ header .navbar{
 
 #contacto h2{
     color: white;
+    font-weight: 500;
 }
 
 #contacto hr{
@@ -108,6 +139,7 @@ footer {
 
 footer h2{
     color : white;
+    font-weight: 500;
 }
 
 footer .footer-text {
@@ -118,6 +150,7 @@ footer .footer-icons{
     padding: 15px;
     color: white;
 }
+
 
 
 @media (max-width: 600px) {
