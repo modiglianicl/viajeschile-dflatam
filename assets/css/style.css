@@ -30,6 +30,11 @@ header .navbar{
     width: 100%;
 }
 
+.big-hero .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 #quienes-somos hr {
     height: 1px;
     background-color: white !important;
