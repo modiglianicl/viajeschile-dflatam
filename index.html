@@ -20,22 +20,22 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ir al inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
+                    <a class="nav-link" href="#quienes-somos" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Conócenos y enterate de que hacemos!">Quienes Somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="#destacados" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Recorridos mas visitados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contacto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Resolvemos tus dudas!">Contacto</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-    </header>
+    </header> <!-- fin header -->
     <section class="big-hero">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" id="carrusel">
             <div class="carousel-inner">
@@ -76,10 +76,11 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-    </section>
+    </section> <!-- fin .big-hero -->
+    
 
     <section id="quienes-somos">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
                     <h2 class="text-center py-5">¿QUIÉNES SOMOS?</h2>
@@ -91,42 +92,54 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-4">
+                <div class="col-12 col-sm-4 toggler-js">
                     <div class="row">
-                        rectangulito
+                        <div class="rectangulo-celeste">
+                            <i class="fa-solid fa-plane fa-2xl justify-content-center"></i>
+                        </div>
                     </div>
                     <div class="row">
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus feugiat mi nec gravida. Maecenas elementum metus lorem, vel ultrices ipsum aliquam sed. 
+                            Suspendisse elementum, tellus et placerat aliquam, ex arcu condimentum tellus, quis auctor urna nisi et orci. Nulla sodales augue id lorem fermentum scelerisque. 
+                            Sed commodo mauris in pretium suscipit. Cras ut facilisis orci, non dapibus quam. Nulla eu porta urna. Suspendisse pulvinar a urna vel suscipit. 
+                            Quisque iaculis vehicula consequat. Donec tristique luctus turpis, eget congue dolor pellentesque ac.
+                        </p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4">
+                <div class="col-12 col-sm-4 toggler-js">
                     <div class="row">
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <div class="row">
-                            rectangulito
+                        <div class="row d-block d-sm-none">
+                            <div class="rectangulo-celeste rectangulo-unico">
+                                <i class="fa-solid fa-mountain-sun fa-2xl justify-content-center"></i>
+                            </div>
+                        </div>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus feugiat mi nec gravida. Maecenas elementum metus lorem, vel ultrices ipsum aliquam sed. 
+                            Suspendisse elementum, tellus et placerat aliquam, ex arcu condimentum tellus, quis auctor urna nisi et orci. Nulla sodales augue id lorem fermentum scelerisque. 
+                            Sed commodo mauris in pretium suscipit. Cras ut facilisis orci, non dapibus quam. Nulla eu porta urna. Suspendisse pulvinar a urna vel suscipit. 
+                            Quisque iaculis vehicula consequat. Donec tristique luctus turpis, eget congue dolor pellentesque ac.</p>
+                        <div class="row d-none d-sm-block">
+                            <div class="rectangulo-celeste rectangulo-unico">
+                                <i class="fa-solid fa-mountain-sun fa-2xl justify-content-center"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4">
+                <div class="col-12 col-sm-4 toggler-js">
                     <div class="row">
-                        rectangulito
+                        <div class="rectangulo-celeste">
+                            <i class="fa-solid fa-route fa-2xl justify-content-center"></i>
+                        </div>
                     </div>
                     <div class="row">
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
-                        <p class="text-left">Texto TextoTextoTextoTextoTextoTextoTextoTexto</p>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus feugiat mi nec gravida. Maecenas elementum metus lorem, vel ultrices ipsum aliquam sed. 
+                            Suspendisse elementum, tellus et placerat aliquam, ex arcu condimentum tellus, quis auctor urna nisi et orci. Nulla sodales augue id lorem fermentum scelerisque. 
+                            Sed commodo mauris in pretium suscipit. Cras ut facilisis orci, non dapibus quam. Nulla eu porta urna. Suspendisse pulvinar a urna vel suscipit. 
+                            Quisque iaculis vehicula consequat. Donec tristique luctus turpis, eget congue dolor pellentesque ac.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> <!-- fin #quienes-somos -->
 
     <section id="destacados">
         <div class="row">
@@ -183,7 +196,7 @@
                   </div>
             </div>
         </div>
-    </section>
+    </section> <!-- fin #destacados -->
 
     <section id="contacto">
         <div class="row">
@@ -210,10 +223,10 @@
               <textarea class="form-control" type="text" id="inpMensaje" name="inpMensaje" placeholder=""></textarea>
             </div>
             <div class="d-flex justify-content-start">
-                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                <button type="submit" class="btn btn-primary btn-lg" data-bs-toggle="tooltip" data-bs-placement="top" title="Enviar correo!">Enviar</button>
             </div>
           </div>
-    </section>
+    </section> <!-- fin #contacto -->
 
     <footer>
         <div class="row">
@@ -224,14 +237,14 @@
             </div>
             <div class="col-6 py-2">
                 <div class="container footer-icons">
-                    <i class="fa-brands fa-square-github fa-2xl"></i>
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
-                    <i class="fa-brands fa-square-twitter fa-2xl"></i>
-                    <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                    <a href="https://www.github.com/chileviajes"><i class="fa-brands fa-square-github fa-2xl"></i></a>
+                    <a href="https://www.linkedin.com/chileviajes"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <a href="https://www.twitter.com/chileviajes"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+                    <a href="https://www.facebook.com/chileviajes"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> <!-- fin footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
