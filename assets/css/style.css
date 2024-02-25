@@ -1,0 +1,89 @@
+* {
+    border: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+header img{
+    height: 2rem
+}
+
+header .navbar{
+    background-color: transparent !important;
+}
+
+.navbar .navbar-brand{
+    color: white;
+    padding-left: 10%;
+}
+
+
+.navbar ul a{
+    color: white;
+}
+
+.big-hero .col-12{
+    width: 100%;
+}
+
+#quienes-somos hr {
+    height: 1px;
+    background-color: white !important;
+    border: none;
+}
+
+#destacados hr {
+    height: 1px;
+    background-color: white !important;
+    border: none;
+}
+
+#quienes-somos{
+    background-color: black;
+}
+
+#quienes-somos h2{
+    color:white;
+}
+
+#quienes-somos h4{
+    color:darkgrey
+}
+
+#quienes-somos p{
+    color: white;
+}
+
+#destacados {
+    background-color: black;
+}
+
+#destacados h2{
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 601px) {
+
+    .navbar ul{
+        padding-right: 12%;
+    }
+
+    .carousel-inner{
+        height: 60em;
+    }
+    
+    .big-hero img{
+        height: 60rem
+    }
+    
+    #quienes-somos .container-fluid{
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+}
